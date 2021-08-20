@@ -1,0 +1,51 @@
+
+.list_user::-webkit-scrollbar,.cuerpo::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.list_user::-webkit-scrollbar:vertical, .cuerpo::-webkit-scrollbar:vertical {
+  width:8px;
+}
+
+.list_user::-webkit-scrollbar-button:increment,.list_user::-webkit-scrollbar-button, .cuerpo::-webkit-scrollbar-button:increment,.cuerpo::-webkit-scrollbar-button {
+  display: none;
+}
+.list_user::-webkit-scrollbar:horizontal, .cuerpo::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.list_user::-webkit-scrollbar-thumb, .cuerpo::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.list_user::-webkit-scrollbar-track, .cuerpo::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.list_user{
+  padding: .5rem;
+  height: calc(100% - 3rem) !important; /* 100% - message - paddinTop y paddin buttom de list_user */
+  overflow: hidden;
+  overflow-y: scroll !important;
+}
+
+.contacto{
+  margin-bottom: .3rem;
+  height: 3.5rem;
+
+}
+
+.contacto:hover{
+  background: #45494c;
+}
+
+.contacto:hover button{
+  visibility: visible;
+}
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

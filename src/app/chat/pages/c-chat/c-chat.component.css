@@ -1,0 +1,88 @@
+.cabecera{
+  height: 5rem;
+  border-radius: .5rem;
+  background: #202124;
+  box-shadow: 8px 8px 16px #18191b, -8px -8px 16px #28292d;
+}
+.cuerpo{
+  overflow-y: scroll;
+  height: calc(100% - 9rem);
+}
+
+.cuerpo::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.cuerpo::-webkit-scrollbar:vertical {
+  width:8px;
+}
+
+.list_user::-webkit-scrollbar-button, .cuerpo::-webkit-scrollbar-button:increment,.cuerpo::-webkit-scrollbar-button {
+  display: none;
+}
+.cuerpo::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.cuerpo::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.cuerpo::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+  .cuerpo .msgs{
+    height: calc(100% - 4rem);
+  }
+
+    .msgs .msg{
+      max-width: 100%;
+
+    }
+      .msgs .msg .usuario2{
+        max-width: 75%;
+        margin: 0;
+      }
+        .msg .usuario2 p{
+          display: inline-block;
+          padding: .5rem;
+          border-radius: 1rem;
+          background: #3c4043;
+          box-shadow: 8px 8px 16px #18191b, -8px -8px 16px #28292d;
+        }
+      .msgs .msg .usuario1{
+        display: flex;
+        justify-content: end;
+        max-width: 75%;
+        margin: 0;
+      }
+        .msg .usuario1 p{
+          display: inline-block;
+          padding: .5rem;
+          border-radius: 1rem;
+          background: #bbbbbb;
+          color: black;
+        }
+
+
+  form{
+    height: 4rem;
+    border-radius: 2.5rem;
+  }
+    input{
+      outline: none;
+      padding-left: 1rem;
+      padding-right: .6rem;
+      border: 0;
+      background: transparent;
+    }
+    form button{
+      height: 2.5rem !important;
+      width: 4.5rem !important;
+      border: 1px solid white;
+      background: #1c93e8;
+      color: white;
+    }
+

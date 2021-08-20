@@ -1,0 +1,23 @@
+.favorito{
+  color: hsla(155, 86%, 53%, 0.719);
+}
+.menuM{ /* */
+  top: .8rem;
+  right: .5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  visibility: hidden;
+}
+
+.menuM:hover{
+  background: #c5c1c1 !important;
+}
+
+.color{
+  color: hsla(155, 86%, 53%, 0.719);
+}

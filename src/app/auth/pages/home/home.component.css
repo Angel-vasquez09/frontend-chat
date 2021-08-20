@@ -1,0 +1,23 @@
+.activo{
+  background: red;
+  transition: all 300ms;
+}
+
+.option{
+  width: 50%;
+  margin: auto;
+  height: 3rem;
+  text-align: center;
+}
+
+.link{
+  cursor: pointer;
+}
+
+/* .link::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+} */

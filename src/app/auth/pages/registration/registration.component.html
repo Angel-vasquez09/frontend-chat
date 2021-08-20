@@ -1,0 +1,23 @@
+<form class="p-3" [formGroup]="form" (ngSubmit)="registrar()">
+  <div class="w-50 m-auto">
+    <input type="text" class="w-100 pl-3 m-2" formControlName = "nombre" name="registro_nombre"   id="registro_nombre"   placeholder="Nombre">
+  </div>
+
+  <div class="w-50 m-auto">
+    <input type="text" class="w-100 pl-3 m-2" formControlName = "apellido" name="registro_apellido" id="registro_apellido" placeholder="Apellido">
+  </div>
+
+  <div class="w-50 m-auto">
+    <input type="text" class="w-100 pl-3 m-2" formControlName = "email" name="registro_email"    id="registro_email"    placeholder="Email">
+  </div>
+
+  <div class="w-50 m-auto">
+    <input type="text" class="w-100 pl-3 m-2" formControlName = "pass1" name="registro_pass1"    id="registro_pass1"    placeholder="Password">
+  </div>
+
+  <div class="w-50 m-auto">
+    <input type="text" class="w-100 pl-3 m-2" formControlName = "pass2" name="registro_pass2"    id="registro_pass2"    placeholder="Repetir Password">
+  </div>
+
+  <div class="w-50 m-auto"><button class="w-100 m-2 mt-2" type="submit">Loguear</button></div>
+</form>

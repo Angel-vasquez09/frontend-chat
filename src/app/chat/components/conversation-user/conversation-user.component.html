@@ -1,0 +1,20 @@
+  <div class="d-flex align-items-center justify-content-center">
+    <img  [class.border-success]="conversation.para.online"
+          [class.border-danger]="!conversation.para.online"
+          class="rounded-circle border border-3 border-success"
+          width="40px" height="40px"
+          src="https://i.pinimg.com/originals/ed/91/2b/ed912bd87188ba7ff3d6d73e9eb80a3e.jpg"
+          alt="user"
+    />
+  </div>
+
+  <div class="d-flex align-items-center  p-1">
+    <div>
+      <strong>{{ conversation.para.nombre }}</strong>
+      <p class="text-truncate m-0">Ultimo mensaje</p>
+    </div>
+  </div>
+
+  <div class="count_msg position-absolute d-flex align-items-center justify-content-center">
+    1
+  </div>

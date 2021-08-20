@@ -1,0 +1,17 @@
+<div class="div__listado w-100 h-100 rounded">
+  <div class="w-100 h-100">
+    <!-- NAV -->
+    <div class="message mb-2 d-flex">
+      <div routerLink="/chat/conversations" routerLinkActive="border-bottom" class="col-4 d-flex justify-content-center align-items-end">Mensajes</div>
+      <div routerLink="/chat/contactos"     routerLinkActive="border-bottom" class="col-4 d-flex justify-content-center align-items-end">Contactos</div>
+      <div routerLink="/chat/favorites"     routerLinkActive="border-bottom" class="col-4 d-flex justify-content-center align-items-end">Favorites</div>
+    </div>
+    <!-- LISTADO DE USUARIOS CONECTADOS -->
+    <router-outlet></router-outlet>
+
+  </div>
+</div>
+
+
+<!-- <div [class.d-none]="!active" class="listado_user d-none d-md-inline h-100 col-md-4 col-lg-3 p-0"> -->
+

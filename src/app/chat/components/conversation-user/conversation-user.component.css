@@ -1,0 +1,8 @@
+.count_msg{ /* Cantidad de mensajes no leidos */
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: 10%;
+  right: .3rem;
+}

@@ -1,0 +1,10 @@
+
+<div class="list_user w-100 h-100">
+  <!-- USUARIO -->
+  <app-conversation-user   *ngFor="let user of users_conversation"
+                            (click)="mostrar()"
+                            [conversation]="user"
+                            class="usuario w-100 d-flex rounded position-relative">
+  </app-conversation-user>
+
+</div>

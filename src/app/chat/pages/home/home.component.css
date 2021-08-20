@@ -1,0 +1,15 @@
+@media screen and (min-width: 766px) {
+  /* Apartir de 766px en adelante ejecutar los siguientes estilos */
+  .div__listado, .listado_user{
+    padding: .5rem !important;
+  }
+}
+
+/* CONTENEDOR DE MI HOME */
+.chat{
+  /* padding: .25rem; */
+  background: #202124;
+  color: #bdbdbd !important;
+}
+
+

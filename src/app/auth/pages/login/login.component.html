@@ -1,0 +1,16 @@
+
+
+<form class="p-3" [formGroup]="miFormulario" (ngSubmit)="guardar()">
+  <div class="w-50 m-auto">
+    <input type="text" formControlName="email" class="w-100 m-2" name="login_email" id="login_email" placeholder="Email">
+  </div>
+
+  <div class="w-50 m-auto">
+    <input type="password" formControlName="pass" class="w-100 m-2" name="login_pass"  id="login_pass" placeholder="Password">
+  </div>
+
+  <div class="w-50 m-auto">
+    <button class="w-100 m-2 mt-2" type="submit">Loguear</button>
+  </div>
+
+</form>
